@@ -1,5 +1,6 @@
 var model = "";
 select("iPhone_14_pro");
+createModel("iPhone_14_pro");
 newView();
 function newView() {
   var input = document.getElementById("input").value;
