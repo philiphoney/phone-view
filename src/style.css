@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: var(--color-background);
+}
+
+:root {
+    --color-background: #262626;
+    --color-bars: grey;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--color-bars);
+}
+
+#input {
+    background-color: var(--color-background);
+    border: 1px solid var(--color-bars);
+    width: 200px;
+    color: white;
+}
+
+#select-theme {
+    background-color: var(--color-bars);
+    border: 1px solid var(--color-bars);
+}
+
+#content-view {
+    padding-top: 5%;
+    justify-content: center;
+    display: flex;
+}
+
+view {
+    justify-content: center;
+    display: flex;
+}
+
