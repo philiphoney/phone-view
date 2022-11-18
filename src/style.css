@@ -38,3 +38,12 @@ view {
     display: flex;
 }
 
+#homebar {
+padding: 2.5px;
+backdrop-filter: invert(10%) contrast(0%) saturate(0%);
+position: absolute;
+width: 20%;
+border-radius: 5px;
+z-index: 20;
+margin-top: 977px;
+}
